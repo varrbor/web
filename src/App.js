@@ -14,7 +14,7 @@ import GlobalStyle from '/components/GlobalStyle';
 import Pages from '/pages';
 
 // configure our API URI & cache
-const uri = 'http://localhost:4000/api';
+const uri = 'http://34.242.142.102:4000/api';
 const httpLink = createHttpLink({ uri });
 const cache = new InMemoryCache();
 
